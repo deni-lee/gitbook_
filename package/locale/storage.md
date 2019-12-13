@@ -33,3 +33,6 @@ sessionStorage.setItem('key’,data);
 ```js
 sessionStorage.removeItem('key’,data);
 ```
+
+## 比較
+![](../../.gitbook/assets/storage.JPG)
