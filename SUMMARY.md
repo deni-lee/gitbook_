@@ -11,4 +11,5 @@
 * [moment.js](package/moment/README.md)
   * [安裝](package/moment/install.md)
   * [使用](package/moment/use.md)
+* [sweetalert2](sweetalert2.md)
 
