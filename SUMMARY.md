@@ -20,7 +20,5 @@
   * [使用](package/fontawesome5/use.md)
 * [本地儲存](package/locale/README.md)
   * [cookies](package/locale/cookies.md)
-  * [storage](package/locale/storage/README.md)
-    * [localStorage](package/locale/storage/localstorage.md)
-    * [sessionStorage](package/locale/storage/sessionstorage.md)
+  * [storage](package/locale/storage.md)
 
