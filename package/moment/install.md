@@ -1,12 +1,12 @@
 # 安裝
 
-### node.js
+## node.js
 
 ```javascript
 npm install moment
 ```
 
-### cdn
+## cdn
 
 ```javascript
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
