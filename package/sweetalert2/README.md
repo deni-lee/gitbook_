@@ -8,4 +8,9 @@ description: SweetAlert2是一款功能強大的純Js模態消息對話框插件
 
 **SweetAlert2是SweetAlert-js的升級版本，它解決了SweetAlert-js中不能嵌入HTML標籤的問題，並對彈出對話框進行了優化，同時提供對各種表單元素的支持，還增加了5種情景模式的模態對話框。**  
 
+## 參照文獻
+
+http://mishengqiang.com/sweetalert2/ 官方文檔
+
+https://dotblogs.com.tw/shadow/2017/10/17/130645
 

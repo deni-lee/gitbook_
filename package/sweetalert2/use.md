@@ -11,6 +11,8 @@ swal({
 #### 配置
 可以使用配置参數，通過一個對象傳入到sweetAlert2中
 
+參照文檔 http://mishengqiang.com/sweetalert2/
+
 #### 圖示type名稱
 
 ![](../../.gitbook/assets/談窗.JPG)
@@ -24,6 +26,8 @@ swal({
 swal(...)
   .catch(swal.noop)
 ```
+### 方法
+參照文檔 http://mishengqiang.com/sweetalert2/
 ### 實作 -- nuxt
 ***
 ```
