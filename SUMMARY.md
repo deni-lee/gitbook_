@@ -16,5 +16,6 @@
   * [使用](package/sweetalert2/use.md)
 * [fontawesome](package/fontawesome/README.md)
   * [安裝](package/fontawesome/install.md)
+  * [功能](package/fontawesome/features.md)
   * [使用](package/fontawesome/use.md)
 
