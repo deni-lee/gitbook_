@@ -2,7 +2,7 @@
 description: 一行語法，輕鬆在網頁加入ICON圖示
 ---
 
-# fontawesome
+# fontawesome5
 
 ## 介紹
 
