@@ -1,11 +1,12 @@
-# 使用  
+# 使用
 
 ## Nuxt.js
 
-### 配置 
+### 配置
 
 plugin 下新增 fontawesome.js
-```js
+
+```javascript
 import Vue from 'vue'
 // the component
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -14,8 +15,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 ```
 
-nuxt.config.js 
-```js
+nuxt.config.js
+
+```javascript
     modules: [
         'nuxt-fontawesome',
     ],
@@ -38,41 +40,45 @@ nuxt.config.js
         '@/plugins/fontawesome.js'
     ],
 ```
+
 ### 使用圖示
-```js
+
+```javascript
 <fa :icon="['類別', 'icon名稱']" />  <br>
 ```
-```js
+
+```javascript
 <template>
 <div>
   <fa :icon="['fas', 'calculator']" />  <br>
 </div>
 </template>
 ```
-***
+
 ## js
 
 ### 載入
 
-把 svg-with-js 的資料夾複製一份到你的專案資料夾中（或者也可以直接使用 FontAwesome CDN），接著載入 JS 的方式非常簡單，就和過去載入 CSS 一樣，官方建議放在 <head></head> 內：
+把 svg-with-js 的資料夾複製一份到你的專案資料夾中（或者也可以直接使用 FontAwesome CDN），接著載入 JS 的方式非常簡單，就和過去載入 CSS 一樣，官方建議放在  內：
 
-```js
+```javascript
 <!-- 一次載入所有的圖示 -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 ```
-```js
+
+```javascript
 <!-- 選擇所需圖示類型的載入 -->
 <!-- 這裡會載入 solid 和 regular 這兩類的圖示，最後要記得載入 fontawesome.js -->
 <script src="https://use.fontawesome.com/releases/v5.0.0/js/solid.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.0.0/js/regular.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.0.0/js/fontawesome.js"></script>
 ```
+
 ### 使用圖示
 
-圖示的使用幾乎和過去一樣，在 HTML 中透過 <code>&lt;i&gt;</code> 標籤同時給予不同的 class 就會產生不同的圖示
+圖示的使用幾乎和過去一樣，在 HTML 中透過 `<i>` 標籤同時給予不同的 class 就會產生不同的圖示
 
-```js
+```javascript
 <i class="fas fa-camera-retro"></i>
 ```
-
 
