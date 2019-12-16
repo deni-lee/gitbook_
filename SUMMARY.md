@@ -7,6 +7,7 @@
 * [Axios](package/axios/README.md)
   * [安裝](package/axios/install.md)
   * [使用](package/axios/use.md)
+  * [配置](package/axios/config.md)
 * [moment.js](package/moment/README.md)
   * [安裝](package/moment/install.md)
   * [使用](package/moment/use.md)
