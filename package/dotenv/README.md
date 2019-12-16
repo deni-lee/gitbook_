@@ -4,7 +4,7 @@ description: 將 .env 文件中的環境參數加載到 process.env
 
 # dotenv
 
-![](../../.gitbook/assets/env.PNG)
+![](../../.gitbook/assets/env.JPG)
 
 
 ### 為什麼需要配置環境變數和模式呢？
