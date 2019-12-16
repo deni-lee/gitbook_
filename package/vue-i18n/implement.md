@@ -1,8 +1,10 @@
-# 實作 -- nuxt
-### 在nuxt應用程式中引入vue-i18n
-新建檔案  ~plugins/i18n.js
+# 實作
 
-```js
+## 在nuxt應用程式中引入vue-i18n
+
+新建檔案 ~plugins/i18n.js
+
+```javascript
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import Cookies from 'js-cookie'
@@ -32,10 +34,11 @@ export default ({ app, store }) => {
 }
 ```
 
-### 建立一個（middleware）中間件，用來管理不同的語言
-在middleware下新建i18n.js用來控制語言切換  ~middleware/i18n.js
+## 建立一個（middleware）中間件，用來管理不同的語言
 
-```js
+在middleware下新建i18n.js用來控制語言切換 ~middleware/i18n.js
+
+```javascript
 export default function({ isHMR, app, store, route, params, error, redirect }) {
     const defaultLocale = app.i18n.fallbackLocale
         // If middleware is called from hot module replacement, ignore it
@@ -59,9 +62,9 @@ export default function({ isHMR, app, store, route, params, error, redirect }) {
 }
 ```
 
-### 修改nuxt.config.js檔案配置
+## 修改nuxt.config.js檔案配置
 
-```js
+```javascript
  router: {
         middleware: 'i18n'
     },
@@ -74,14 +77,15 @@ export default function({ isHMR, app, store, route, params, error, redirect }) {
     },
 ```
 
-### 建立本地語言包
+## 建立本地語言包
+
 1、在跟目錄下建立 lang 資料夾
 
 ![](../../.gitbook/assets/lang.JPG)
 
-2、建立語言包 
- EX: （~lang/en.js）
- ```js
+2、建立語言包 EX: （~lang/en.js）
+
+```javascript
  {
   "links": {
     "home": "Home",
@@ -98,16 +102,17 @@ export default function({ isHMR, app, store, route, params, error, redirect }) {
 }
 ```
 
-### 建立頁面，進行翻譯
+## 建立頁面，進行翻譯
+
 ~pages/index.vue
 
-```js
+```javascript
 <template>
 <div>
   <p>{{ $t('home') }}</p>
   <button @click="changeLanguage('cn')" >cn</button>
   <button @click="changeLanguage('en')" >en</button><br>
-  
+
 </div>
 </template>
 
@@ -123,10 +128,11 @@ export default {
         this.$store.commit('SET_LANG', language)
         location.reload()
       },
-      
+
     },
-    
+
 }
 
 </script>
 ```
+

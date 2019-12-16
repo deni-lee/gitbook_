@@ -7,7 +7,8 @@ description: Vue I18n 是 Vue.js 的國際化插件。它可以輕鬆地將一�
 要讓網站也可以提供給外籍人士使用，不可免俗的需要多國語系的支援，因此本文透過 vue-i18n 來打造一個多國語系網站，並介紹基本的使用情境及用法。
 
 ## 安裝
-```
+
+```text
 npm install vue-i18n --save
 ```
 
@@ -15,7 +16,7 @@ npm install vue-i18n --save
 
 ### HTML
 
-```html
+```markup
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
 
@@ -23,9 +24,10 @@ npm install vue-i18n --save
   <p>{{ $t("message.hello") }}</p>
 </div>
 ```
+
 ### JavaScript
 
-```js
+```javascript
 // 如果使用模块系统 (例如通过 vue-cli)，则需要导入 Vue 和 VueI18n ，然后调用 Vue.use(VueI18n)。
 // import Vue from 'vue'
 // import VueI18n from 'vue-i18n'
@@ -58,9 +60,10 @@ new Vue({ i18n }).$mount('#app')
 
 // 现在应用程序已经准备好了！
 ```
+
 ### 輸出結果
 
-```js
+```javascript
 <div id="#app">
   <p>こんにちは、世界</p>
 </div>
@@ -68,8 +71,9 @@ new Vue({ i18n }).$mount('#app')
 
 ## 參考文獻
 
-https://kazupon.github.io/vue-i18n/zh/introduction.html#%E8%B5%9E%E5%8A%A9%E5%95%86 官方文檔
+[https://kazupon.github.io/vue-i18n/zh/introduction.html\#%E8%B5%9E%E5%8A%A9%E5%95%86](https://kazupon.github.io/vue-i18n/zh/introduction.html#%E8%B5%9E%E5%8A%A9%E5%95%86) 官方文檔
 
-https://ithelp.ithome.com.tw/articles/10194177
+[https://ithelp.ithome.com.tw/articles/10194177](https://ithelp.ithome.com.tw/articles/10194177)
 
-https://dotblogs.com.tw/wasichris/2018/05/12/012517
+[https://dotblogs.com.tw/wasichris/2018/05/12/012517](https://dotblogs.com.tw/wasichris/2018/05/12/012517)
+
