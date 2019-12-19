@@ -2,7 +2,7 @@
 
 ## 什麼是Loader ？
 
-在擼一個loader前，我們需要先知道它到底是什麼。本質上來說，loader就是一個node模塊，這很符合webpack中「萬物皆模塊」的思路。既然是node模塊，那就一定會導出點什麼。在webpack的定義中，loader導出一個函數，loader會在轉換源模塊（resource）的時候調用該函數。在這個函數內部，我們可以通過傳入this上下文給Loader API來使用它們。回顧一下頭圖左邊的那些模塊，他們就是所謂的源模塊，會被loader轉化為右邊的通用文件，因此我們也可以概括一下loader的功能：把源模塊轉換成通用模塊。
+在擼一個loader前，我們需要先知道它到底是什麼。本質上來說，loader就是一個node模塊，這很符合webpack中「萬物皆模塊」的思路。既然是node模塊，那就一定會導出點什麼。在webpack的定義中，loader導出一個函數，loader會在轉換源模塊（resource）的時候調用該函數。在這個函數內部，我們可以通過傳入this上下文給Loader API來使用它們。回顧一下頭圖左邊的那些模塊，他們就是所謂的源模塊，會被loader轉化為右邊的通用文件，因此我們也可以概括一下loader的功能：<mark>把源模塊轉換成通用模塊。</mark>
 
 loader用於對模塊的源代碼進行轉換。loader可以使你在import或"加載"模塊時預處理文件。因此，loader類似於其他構建工具中“任務(task)”，並提供了處理前端構建步驟的強大方法。loader可以將文件從不同的語言（如TypeScript）轉換為JavaScript或將內聯圖像轉換為data URL。loader甚至允許你直接在JavaScript模塊中importCSS文件！
 
