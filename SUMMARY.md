@@ -31,5 +31,5 @@
 * [webpack](da-bao/webpack/README.md)
   * [使用](da-bao/webpack/use.md)
   * [實作](da-bao/webpack/implement.md)
-* [前端模組化](da-bao/qian-duan-mo-zu-hua.md)
+* [前端模組化](da-bao/module.md)
 
