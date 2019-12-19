@@ -36,5 +36,9 @@
     * [插件 plugins](da-bao/webpack/plugins.md)
     * [模式 mode](da-bao/webpack/mode.md)
   * [實作](da-bao/webpack/implement.md)
-* [前端模組化](da-bao/module.md)
+* [前端模組化](da-bao/module/README.md)
+  * [模組化的理解](da-bao/module/understanding.md)
+  * [模組化規範](da-bao/module/specification.md)
+
+
 
