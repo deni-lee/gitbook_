@@ -40,7 +40,7 @@
   * [模組化的理解](da-bao/module/understanding.md)
   * [模組化規範](da-bao/module/specification.md)
 
-## SCSS
+## 基礎學習
 
 * [scss](scss/README.md)
   * [介紹](scss/install.md)
