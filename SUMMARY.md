@@ -42,10 +42,10 @@
 
 ## 基礎學習
 
-* [scss](scss/README.md)
-  * [介紹](scss/install.md)
-  * [語法](scss/grammar.md)
-  * [實作](scss/use.md)
+* [scss](basic/scss/README.md)
+  * [介紹](basic/scss/install.md)
+  * [語法](basic/scss/grammar.md)
+  * [實作](basic/scss/use.md)
 
 
 
