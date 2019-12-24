@@ -44,7 +44,7 @@
 ## 基礎學習 <a id="basic"></a>
 
 * [scss](basic/scss/README.md)
-  * [介紹](basic/scss/jie-shao.md)
-  * [語法](basic/scss/yu-fa.md)
-  * [實作](basic/scss/shi-zuo.md)
+  * [介紹](basic/scss/introduction.md)
+  * [語法](basic/scss/grammer.md)
+  * [實作](basic/scss/use.md)
 
