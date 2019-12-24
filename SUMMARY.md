@@ -41,10 +41,10 @@
   * [模組化的理解](da-bao/module/understanding.md)
   * [模組化規範](da-bao/module/specification.md)
 
-## 基礎學習 <a id="basic"></a>
+## 基礎學習 <a id="basis"></a>
 
-* [scss](basic/scss/README.md)
-  * [介紹](basic/scss/introduction.md)
-  * [語法](basic/scss/grammer.md)
-  * [實作](basic/scss/use.md)
+* [scss](basis/scss/README.md)
+  * [介紹](basis/scss/introduction.md)
+  * [語法](basis/scss/grammer.md)
+  * [實作](basis/scss/use.md)
 
