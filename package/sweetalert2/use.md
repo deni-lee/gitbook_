@@ -21,7 +21,7 @@ swal({
 
 ### 處理關閉
 
-當用戶将彈窗關閉時，swal\(\)返回的Promise將使用帶有字符串参数的reject來記錄談窗被退出的原因:  
+當用戶将彈窗關閉時，swal\(\)返回的Promise將使用帶有字符串参数的reject來記錄談窗被退出的原因:
 
 ![](../../.gitbook/assets/chu-li-guan-bi.JPG)
 

@@ -30,21 +30,21 @@
 ## 打包
 
 * [webpack](da-bao/webpack/README.md)
-  * [使用](da-bao/webpack/use.md)
-    * [入口 entry](da-bao/webpack/entry.md)
-    * [輸出 output](da-bao/webpack/output.md)
-    * [加載器 loader](da-bao/webpack/loader.md)
-    * [插件 plugins](da-bao/webpack/plugins.md)
-    * [模式 mode](da-bao/webpack/mode.md)
+  * [使用](da-bao/webpack/use/README.md)
+    * [入口 entry](da-bao/webpack/use/entry.md)
+    * [輸出 output](da-bao/webpack/use/output.md)
+    * [加載器 loader](da-bao/webpack/use/loader.md)
+    * [插件 plugins](da-bao/webpack/use/plugins.md)
+    * [模式 mode](da-bao/webpack/use/mode.md)
   * [實作](da-bao/webpack/implement.md)
 * [前端模組化](da-bao/module/README.md)
   * [模組化的理解](da-bao/module/understanding.md)
   * [模組化規範](da-bao/module/specification.md)
 
-## 基礎學習
+## 基礎學習 <a id="basic"></a>
 
-* [scss](ji-chu-xue-xi/scss/README.md)
-  * [介紹](ji-chu-xue-xi/scss/jie-shao.md)
-  * [語法](ji-chu-xue-xi/scss/yu-fa.md)
-  * [實作](ji-chu-xue-xi/scss/shi-zuo.md)
+* [scss](basic/scss/README.md)
+  * [介紹](basic/scss/jie-shao.md)
+  * [語法](basic/scss/yu-fa.md)
+  * [實作](basic/scss/shi-zuo.md)
 

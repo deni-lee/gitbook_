@@ -59,7 +59,7 @@ nuxt.config.js
 
 ### 載入
 
-把 svg-with-js 的資料夾複製一份到你的專案資料夾中（或者也可以直接使用 FontAwesome CDN），接著載入 JS 的方式非常簡單，就和過去載入 CSS 一樣，官方建議放在  內：
+把 svg-with-js 的資料夾複製一份到你的專案資料夾中（或者也可以直接使用 FontAwesome CDN），接著載入 JS 的方式非常簡單，就和過去載入 CSS 一樣，官方建議放在 內：
 
 ```javascript
 <!-- 一次載入所有的圖示 -->
