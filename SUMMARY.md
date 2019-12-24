@@ -44,7 +44,6 @@
 ## 基礎學習 <a id="basis"></a>
 
 * [scss](basis/scss/README.md)
-  * [介紹](basis/scss/introduction.md)
   * [語法](basis/scss/grammer.README.md)
     * [變數](basis/scss/grammer/variable.md)
   * [實作](basis/scss/use.md)
