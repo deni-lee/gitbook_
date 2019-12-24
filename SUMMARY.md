@@ -25,6 +25,7 @@
   * [實作](package/vue-i18n/implement.md)
 * [dotenv](package/dotenv/README.md)
   * [實作](package/dotenv/implement.md)
+* [vue-plyr](package/vue-plyr.md)
 
 ## 打包
 
@@ -42,10 +43,8 @@
 
 ## 基礎學習
 
-* [scss](basic/scss/README.md)
-  * [介紹](basic/scss/install.md)
-  * [語法](basic/scss/grammar.md)
-  * [實作](basic/scss/use.md)
-
-
+* [scss](ji-chu-xue-xi/scss/README.md)
+  * [介紹](ji-chu-xue-xi/scss/jie-shao.md)
+  * [語法](ji-chu-xue-xi/scss/yu-fa.md)
+  * [實作](ji-chu-xue-xi/scss/shi-zuo.md)
 
