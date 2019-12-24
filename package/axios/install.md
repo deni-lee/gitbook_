@@ -1,16 +1,20 @@
 # 安裝
 
-### npm
-```
+## npm
+
+```text
 $ npm install axios
 ```
 
-### bower
-```
+## bower
+
+```text
 $ bower install axios
 ```
 
-### cdn:
-```JS
+## cdn:
+
+```javascript
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
+

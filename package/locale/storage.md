@@ -8,7 +8,7 @@
 
 ⇒ 不會過期，除非手動清除
 
-* 讀取  
+* 讀取
 
   ```javascript
   localStorage.getItem('key’);
@@ -36,13 +36,13 @@
   sessionStorage.getItem('key’);
   ```
 
-* 更新  
+* 更新
 
   ```javascript
   sessionStorage.setItem('key’,data);
   ```
 
-* 刪除  
+* 刪除
 
   ```javascript
   sessionStorage.removeItem('key’,data);

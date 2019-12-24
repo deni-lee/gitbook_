@@ -23,7 +23,7 @@ js-cookie外掛是一個JS操作cookie的外掛，原始檔只有3.34 KB，非�
   <script src=”/path/to/js.cookie.js”></script>
   ```
 
-* 模組化開發時: 
+* 模組化開發時:
 
 ```javascript
 import Cookies from ‘js-cookie’
