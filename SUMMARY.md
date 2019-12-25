@@ -46,6 +46,6 @@
 
 * [scss](basis/scss/README.md)
   * [語法](basis/scss/yu-fa/README.md)
-    * [變數](basis/scss/grammer/variable.md)
+    * [變數](basis/scss/yu-fa/variable.md)
   * [實作](basis/scss/use.md)
 
