@@ -26,6 +26,7 @@
 * [dotenv](package/dotenv/README.md)
   * [實作](package/dotenv/implement.md)
 * [vue-plyr](package/vue-plyr.md)
+* [vue-awesome-swiper](package/swiper.md)
 
 ## 打包
 
@@ -44,7 +45,7 @@
 ## 基礎學習 <a id="basis"></a>
 
 * [scss](basis/scss/README.md)
-  * [語法](basis/scss/grammer.README.md)
+  * [語法](basis/scss/yu-fa/README.md)
     * [變數](basis/scss/grammer/variable.md)
   * [實作](basis/scss/use.md)
 
