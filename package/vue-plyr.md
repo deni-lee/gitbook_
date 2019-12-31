@@ -57,7 +57,7 @@ export default {
 }
 ```
 ## 用法
-```js
+```html
 <!-- video element -->
 <vue-plyr>
   <video poster="poster.png" src="video.mp4">
@@ -105,3 +105,8 @@ export default {
   <div data-plyr-provider="vimeo" data-plyr-embed-id="76979871"></div>
 </vue-plyr>
 ```
+
+## 參考文獻
+https://github.com/redxtech/vue-plyr 官方github
+
+https://github.com/sampotts/plyr  plyr API
