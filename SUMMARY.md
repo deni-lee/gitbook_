@@ -27,6 +27,7 @@
   * [實作](package/dotenv/implement.md)
 * [vue-plyr](package/vue-plyr.md)
 * [vue-awesome-swiper](package/swiper.md)
+* [sass-loader](package/sass-loader.md)
 
 ## 打包
 
