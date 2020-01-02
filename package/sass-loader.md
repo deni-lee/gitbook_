@@ -49,3 +49,8 @@ module.exports = {
   },
 };
 ```
+
+## 參考文獻
+https://github.com/webpack-contrib/sass-loader
+
+https://medium.com/@cos214159/webpack-%E7%AD%86%E8%A8%98%E6%95%B4%E7%90%86-%E4%B9%9D-sass-loader-%E5%92%8C-autoprefix-1305ffec77f7
