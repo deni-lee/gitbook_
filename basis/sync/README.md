@@ -22,3 +22,7 @@ https://ithelp.ithome.com.tw/articles/10197312
 https://ithelp.ithome.com.tw/articles/10194569
 
 https://ithelp.ithome.com.tw/articles/10197529
+
+https://www.oxxostudio.tw/articles/201908/js-async-await.html
+
+https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Statements/async_function
