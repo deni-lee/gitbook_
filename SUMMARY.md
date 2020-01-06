@@ -50,4 +50,7 @@
   * [語法](basis/scss/yu-fa/README.md)
     * [變數](basis/scss/yu-fa/variable.md)
   * [實作](basis/scss/use.md)
+* [同步非同步](basis/sync/README.md)
+  * [promise](basis/sync/promise.md)
+  * [async/await](basis/sync/async-await.md)
 
