@@ -77,4 +77,4 @@ function funcC(){
 ```js
 funcA().then(funcB).then(funcC);
 ```
-就可以做到等 <code>funcA()</code> 被 「resolve」之後再執行 <code>funcB()</code>，然後 resolve 再執行 funcC() 的順序了。
+就可以做到等 <code>funcA()</code> 被 「resolve」之後再執行 <code>funcB()</code>，然後 resolve 再執行 <code>funcC()</code> 的順序了。
