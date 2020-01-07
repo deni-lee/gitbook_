@@ -29,6 +29,7 @@
 * [vue-awesome-swiper](package/swiper.md)
 * [sass-loader](package/sass-loader.md)
 * [node-sass](package/node-sass.md)
+* [fs-extra](package/fs-extra.md)
 
 ## 打包
 
