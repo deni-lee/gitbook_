@@ -30,6 +30,7 @@
 * [sass-loader](package/sass-loader.md)
 * [node-sass](package/node-sass.md)
 * [fs-extra](package/fs-extra.md)
+* [vform](package/vform.md)
 
 ## 打包
 
