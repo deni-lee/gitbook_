@@ -13,35 +13,22 @@ var fs = require （“ fs” ）
 
 創建input.txt 文件，內容如下：
 ```
-菜鳥教程官網地址：www . runoob . com
- 文件讀取實例
+hello
  ```
 創建file.js 文件, 代碼如下：
 ```js
-var fs = require （“ fs” ）; 
-
-//異步讀取
-fs . readFile ( 'input.txt' , function ( err , data ) { if ( err ) { return console . error ( err ); } 
-   console . log ( "異步讀取: " + data . toString ()); });   
-     
-       
-    
-
-
-//同步讀取var data = fs . readFileSync ( 'input.txt' ); 
-console . log ( "同步讀取: " + data . toString ());
+var fs = require('fs');
  
-
-console . log ( "程序執行完畢。" );
+fs.readFile('TestFile.txt', function (err, data) {
+    if (err) throw err;
+ 
+    console.log(data.toString());
+});
 ```
 以上代碼執行結果如下：
 ```
 $ node file . js 
- 同步讀取: 菜鳥教程官網地址：www . runoob . com
- 文件讀取實例 
-
-程序執行完畢。異步讀取: 菜鳥教程官網地址：www . runoob . com
- 文件讀取實例
+ hello
  ```
 
  ## 參考文獻
