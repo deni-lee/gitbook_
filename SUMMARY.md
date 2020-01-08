@@ -19,6 +19,7 @@
   * [getter](vue/vuex/getter.md)
   * [mutation](vue/vuex/mutation.md)
   * [action](vue/vuex/action.md)
+  * [Module](vue/vuex/module.md)
 
 ## 套件 <a id="package"></a>
 
