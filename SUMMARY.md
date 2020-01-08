@@ -2,6 +2,24 @@
 
 * [Initial page](README.md)
 
+## 基礎學習 <a id="basis"></a>
+
+* [scss](basis/scss/README.md)
+  * [語法](basis/scss/yu-fa/README.md)
+    * [變數](basis/scss/yu-fa/variable.md)
+  * [實作](basis/scss/use.md)
+* [同步非同步](basis/sync/README.md)
+  * [promise](basis/sync/promise.md)
+  * [async/await](basis/sync/async-await.md)
+
+## vue
+
+* [vuex](vue/vuex/README.md)
+  * [state](vue/vuex/state.md)
+  * [getter](vue/vuex/getter.md)
+  * [mutation](vue/vuex/mutation.md)
+  * [action](vue/vuex/action.md)
+
 ## 套件 <a id="package"></a>
 
 * [Axios](package/axios/README.md)
@@ -45,14 +63,4 @@
 * [前端模組化](da-bao/module/README.md)
   * [模組化的理解](da-bao/module/understanding.md)
   * [模組化規範](da-bao/module/specification.md)
-
-## 基礎學習 <a id="basis"></a>
-
-* [scss](basis/scss/README.md)
-  * [語法](basis/scss/yu-fa/README.md)
-    * [變數](basis/scss/yu-fa/variable.md)
-  * [實作](basis/scss/use.md)
-* [同步非同步](basis/sync/README.md)
-  * [promise](basis/sync/promise.md)
-  * [async/await](basis/sync/async-await.md)
 
