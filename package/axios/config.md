@@ -15,6 +15,7 @@ transformRequest: [].concat(data => {
 ```
 **transformResponse**
 >在進入 then / catch 前可作資料處理
+
 ## Interceptors
 與transformRequest稍微不同，interceptors 可攔截 request 或 response，在<code>then()</code>或<code>catch()</code>之前做些判斷。
 
