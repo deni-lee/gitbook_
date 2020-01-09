@@ -20,6 +20,28 @@ transformRequest: [].concat(data => {
 與transformRequest稍微不同，interceptors 可攔截 request 或 response，在<code>then()</code>或<code>catch()</code>之前做些判斷。
 
 例如 API 總是檢查登入狀態，會在錯誤時回傳的 JSON 包個 error: 'login failed'。我們只需檢查這個 key， 直接讓它 throw error 到 catch() 裡面進行後續處理。
+```
+axios.interceptors.request.use(function (config) {
+    // ......
+    return config;
+  }, function (error) {
+    // ......
+    return Promise.reject(error);
+  });
+
+axios.interceptors.response.use(function (response) {
+    //......
+    return response;
+  }, function (error) {
+    // ......
+    return Promise.reject(error);
+  });
+```
+如果你想在以後可移除攔截器，可以這樣：
+```js
+var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
+axios.interceptors.request.eject(myInterceptor);
+```
 ## headers
 >是即將被發送的自定義標頭
 
