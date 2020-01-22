@@ -17,8 +17,8 @@
   * [里式替換](basis/solid/lsp.md)
   * [介面隔離](basis/solid/isp.md)
   * [依賴反轉](basis/solid/dip.md)
-* [HTML5](basis/html5.md)
-* [用法](basis/use.md)
+* [HTML5](basis/html5/README.md)
+  * [用法](basis/html5/use.md)
 
 ## vue
 
