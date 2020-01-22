@@ -39,6 +39,8 @@
 * 無法像Flash 以及Silverlight般把資源封裝，影音檔案或其他相關連結可能會很容易被抓出來，得靠些方式擋直接連結或暴力下載。
 
 ## 參考文獻
-http://inspiregate.com/programming/html-css/389-html5-started-teaching.html
 
-https://dotblogs.com.tw/yuan0716/2011/11/01/openhtml5
+[http://inspiregate.com/programming/html-css/389-html5-started-teaching.html](http://inspiregate.com/programming/html-css/389-html5-started-teaching.html)
+
+[https://dotblogs.com.tw/yuan0716/2011/11/01/openhtml5](https://dotblogs.com.tw/yuan0716/2011/11/01/openhtml5)
+

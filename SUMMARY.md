@@ -11,12 +11,7 @@
 * [同步非同步](basis/sync/README.md)
   * [promise](basis/sync/promise.md)
   * [async/await](basis/sync/async-await.md)
-* [SOLID](basis/solid/README.md)
-  * [單一職責](basis/solid/srp.md)
-  * [開放/封閉原則](basis/solid/ocp.md)
-  * [里式替換](basis/solid/lsp.md)
-  * [介面隔離](basis/solid/isp.md)
-  * [依賴反轉](basis/solid/dip.md)
+* [SOLID](basis/solid.md)
 * [HTML5](basis/html5/README.md)
   * [用法](basis/html5/use.md)
 
