@@ -11,6 +11,8 @@
 * [同步非同步](basis/sync/README.md)
   * [promise](basis/sync/promise.md)
   * [async/await](basis/sync/async-await.md)
+* [SOLID](basis/solid.md)
+* [HTML5](basis/html5.md)
 
 ## vue
 
