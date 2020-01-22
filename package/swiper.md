@@ -5,7 +5,8 @@ Swiper是一個開源、免費、強大的觸摸滑動插件。Vue-Awesome-Swipe
 ## 安裝
 
 CDN
-```js
+
+```javascript
 <link rel="stylesheet" href="path/to/swiper/dist/css/swiper.css"/>
 <script type="text/javascript" src="path/to/swiper.js"></script>
 <script type="text/javascript" src="path/to/vue.min.js"></script>
@@ -16,13 +17,14 @@ CDN
 ```
 
 npm
-```
+
+```text
 npm install vue-awesome-swiper --save
 ```
 
 ### 全局安裝
 
-```js
+```javascript
 import Vue from 'vue'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
@@ -31,9 +33,10 @@ import 'swiper/dist/css/swiper.css'
 
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 ```
+
 ### 與組件一起安裝
 
-```js
+```javascript
 // require styles
 import 'swiper/dist/css/swiper.css'
 
@@ -49,7 +52,7 @@ export default {
 
 ### 用ssr掛載
 
-```js
+```javascript
 if (process.browser) {
   const VueAwesomeSwiper = require('vue-awesome-swiper/dist/ssr')
   Vue.use(VueAwesomeSwiper)
@@ -57,15 +60,14 @@ if (process.browser) {
 ```
 
 ## 差異（使用方法的異同）
+
 SSR和使用SPA的唯一區別是：
 
-SPA的工作由component，找到的刷卡實例ref attribute。
-SSR由負責directive，找到swiper實例directive arg。
-其他配置，事件是相同的。
+SPA的工作由component，找到的刷卡實例ref attribute。 SSR由負責directive，找到swiper實例directive arg。 其他配置，事件是相同的。
 
 ### SPA
 
-```js
+```javascript
 <!-- The ref attr used to find the swiper instance -->
 <template>
   <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback">
@@ -114,7 +116,7 @@ SSR由負責directive，找到swiper實例directive arg。
 
 ### SSR
 
-```js
+```javascript
 <!-- You can custom the "mySwiper" name used to find the swiper instance in current component -->
 <template>
   <div v-swiper:mySwiper="swiperOption" @someSwiperEvent="callback">
@@ -155,22 +157,24 @@ SSR由負責directive，找到swiper實例directive arg。
 ```
 
 ## 實作 -- Nuxt.js
-github 
 
-https://github.com/deni-lee/package_practice/commit/afde5de437d82ab92c9cd293220be493214c764a
+github
+
+[https://github.com/deni-lee/package\_practice/commit/afde5de437d82ab92c9cd293220be493214c764a](https://github.com/deni-lee/package_practice/commit/afde5de437d82ab92c9cd293220be493214c764a)
 
 ### 1、新建pugins/swiper.js
 
-```js
+```javascript
 import Vue from 'vue'
 
 import VueAwesomeSwiper from 'vue-awesome-swiper/dist/ssr'
 
 Vue.use(VueAwesomeSwiper)
 ```
+
 ### 2、修改 nuxt.config.js的plugins
 
-```js
+```javascript
   plugins:[
 
     { src: '~/plugins/swiper.js', ssr: false },
@@ -183,8 +187,10 @@ Vue.use(VueAwesomeSwiper)
 
   ],
 ```
+
 ### 3、頁面引用
-```js
+
+```javascript
 <template>
   <!-- You can find this swiper instance object in current component by the "mySwiper"  -->
   <div v-swiper:mySwiper="swiperOption">
@@ -226,7 +232,7 @@ Vue.use(VueAwesomeSwiper)
         }
       }
     },
-    
+
   }
 </script>
 
@@ -252,7 +258,10 @@ Vue.use(VueAwesomeSwiper)
   }
 </style>
 ```
-## 參考文獻
-https://github.com/surmon-china/vue-awesome-swiper 官方github
 
-https://github.surmon.me/vue-awesome-swiper/  demo page
+## 參考文獻
+
+[https://github.com/surmon-china/vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper) 官方github
+
+[https://github.surmon.me/vue-awesome-swiper/](https://github.surmon.me/vue-awesome-swiper/) demo page
+

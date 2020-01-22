@@ -14,24 +14,25 @@ plyr視頻和音頻播放器的Vue組件。
 
 ### plyr的特色是：
 
-- Github 12367 顆星星
-- 可透過 Plugin 支援多種格式、協議影片 ( MP4、FLV、HLS、webm、DASH..etc )
-- 可在 HTML5、Flash 間切換
-- 支援播放 YouTube 與 Vimeo 影片
-- 極為輕量，plyr.min.js 僅有 95.6 KB
-- 有 vue-plyr 與 react-plyr 版可使用
+* Github 12367 顆星星
+* 可透過 Plugin 支援多種格式、協議影片 \( MP4、FLV、HLS、webm、DASH..etc \)
+* 可在 HTML5、Flash 間切換
+* 支援播放 YouTube 與 Vimeo 影片
+* 極為輕量，plyr.min.js 僅有 95.6 KB
+* 有 vue-plyr 與 react-plyr 版可使用
 
 ## 安裝
 
-```
+```text
 yarn add vue-plyr plyr 
 npm i vue-plyr plyr
 ```
+
 ## 引入
 
 在plugins文件夾中創建vue-plyr.js
 
-```js
+```javascript
 import Vue from 'vue'
 import VuePlyr from 'vue-plyr/dist/vue-plyr.ssr.js'
 
@@ -46,7 +47,7 @@ Vue.use(VuePlyr, {
 
 nuxt.config.js文件應包括以下內容：
 
-```
+```text
 export default {
   plugins: [
     '~/plugins/vue-plyr'
@@ -56,8 +57,10 @@ export default {
   ]
 }
 ```
+
 ## 用法
-```html
+
+```markup
 <!-- video element -->
 <vue-plyr>
   <video poster="poster.png" src="video.mp4">
@@ -107,6 +110,8 @@ export default {
 ```
 
 ## 參考文獻
-https://github.com/redxtech/vue-plyr 官方github
 
-https://github.com/sampotts/plyr  plyr API
+[https://github.com/redxtech/vue-plyr](https://github.com/redxtech/vue-plyr) 官方github
+
+[https://github.com/sampotts/plyr](https://github.com/sampotts/plyr) plyr API
+

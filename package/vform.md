@@ -3,16 +3,18 @@
 在Vue中處理Laravel後端驗證的一種簡單方法。受Laravel Spark啟發。
 
 ## 安裝
-```
+
+```text
 npm i axios vform
 ```
 
 ## 用法
+
 ### Components for Bootstrap 3 and 4.
 
-**!!!NUXT!!! ->plugins/vform.js**
+**!!!NUXT!!! -&gt;plugins/vform.js**
 
-```js
+```javascript
 import { 
   HasError,
   AlertError,
@@ -27,8 +29,10 @@ Vue.component(AlertSuccess.name, AlertSuccess)
 ```
 
 ### has-error
+
 Display the validation error for a field.
-```js
+
+```javascript
 <!-- Bootstrap 4 -->
 <div class="form-group">
   <label>Username</label>
@@ -44,14 +48,18 @@ Display the validation error for a field.
   <has-error :form="form" field="username"></has-error>
 </div>
 ```
+
 ### alert-error
+
 Show a danger alert if there are any errors.
-```js
+
+```javascript
 <alert-error :form="form" message="There were some problems with your input."></alert-error>
 ```
 
 ### usage
-```js
+
+```javascript
 <template>
 <div id="app">
   <form @submit.prevent="login" @keydown="form.onKeydown($event)">
@@ -61,29 +69,29 @@ Show a danger alert if there are any errors.
         class="form-control" :class="{ 'is-invalid': form.errors.has('username') }">
       <has-error :form="form" field="username"></has-error>
     </div>
- 
+
     <div class="form-group">
       <label>Password</label>
       <input v-model="form.password" type="password" name="password"
         class="form-control" :class="{ 'is-invalid': form.errors.has('password') }">
       <has-error :form="form" field="password"></has-error>
     </div>
- 
+
     <button :disabled="form.busy" type="submit" class="btn btn-primary">Log In</button>
   </form>
 </div>  
 </template>
- 
+
 <script>
 import Vue from 'vue'
 import { Form, HasError, AlertError } from 'vform'
- 
+
 Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
- 
+
 new Vue({
   el: '#app',
-  
+
   data () {
     return {
       // Create a new form instance
@@ -94,7 +102,7 @@ new Vue({
       })
     }
   },
- 
+
   methods: {
     login () {
       // Submit the form via a POST request
@@ -105,3 +113,4 @@ new Vue({
 })
 </script>
 ```
+
