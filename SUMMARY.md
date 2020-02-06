@@ -53,6 +53,8 @@
 * [node-sass](package/node-sass.md)
 * [fs-extra](package/fs-extra.md)
 * [vform](package/vform.md)
+* [vue-quill-editor](package/vue-quill-editor/README.md)
+  * [vue-quill-editor-upload](package/vue-quill-editor/vue-quill-editor-upload.md)
 
 ## 打包
 
