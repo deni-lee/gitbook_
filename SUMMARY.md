@@ -55,6 +55,7 @@
 * [vform](package/vform.md)
 * [vue-quill-editor](package/vue-quill-editor/README.md)
   * [vue-quill-editor-upload](package/vue-quill-editor/vue-quill-editor-upload.md)
+* [vue-carousel](package/vue-carousel.md)
 
 ## 打包
 
