@@ -22,26 +22,26 @@ Vue.use(vscroll)
 ```
 ```js
 < div id = “ app ” v-scroll = “ {method：appScroll，opts：appScrollOpts  ” >  
-    < div id = “ 內部” > 
+    < div id = “ inner” > 
       
     </ div >
 </ div >
 新Vue（{
-    數據（）{
-        返回{
+     data（）{
+        return{
  
             //配置
             appScrollOpts：{
-                點擊：是的，
+                click：true，
                 probeType：3
             }
         }
     }，
-    方法： {
+    method： {
         appScroll（scroll）{
  
             //方法
-            console.log（滾動）
+            console.log（scroll）
         }
     }
 }）。$ mount（“＃app”）
