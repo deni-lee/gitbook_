@@ -26,7 +26,7 @@ Vue.use(vscroll)
       
     </ div >
 </ div >
-新Vue（{
+new Vue（{
      data（）{
         return{
  
