@@ -56,6 +56,7 @@
 * [vue-quill-editor](package/vue-quill-editor/README.md)
   * [vue-quill-editor-upload](package/vue-quill-editor/vue-quill-editor-upload.md)
 * [vue-carousel](package/vue-carousel.md)
+* [vue-fb-customer-chat](package/vue-fb-customer-chat.md)
 
 ## 打包
 
