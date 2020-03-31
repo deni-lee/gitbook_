@@ -3,23 +3,26 @@
 幻燈片組件，用於循環顯示元素（圖像或文本幻燈片），例如輪播。
 
 ## 安裝
-```
+
+```text
 npm install vue-carousel //npm
 yarn add vue-carousel //yarn
 ```
 
 ## 使用
-全局
-plugin/carousel.js
-```js
+
+全局 plugin/carousel.js
+
+```javascript
 import Vue from 'vue';
 import VueCarousel from 'vue-carousel';
 
 Vue.use(VueCarousel);
 ```
+
 組件中使用
 
-```js
+```javascript
 <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
     <slide>
       Slide 1 Content
@@ -31,6 +34,8 @@ Vue.use(VueCarousel);
 ```
 
 ## 參考文獻
-https://github.com/ssense/vue-carousel#readme vue-carousel github
 
-https://getbootstrap.com/docs/4.0/components/carousel/ boostrap
+[https://github.com/ssense/vue-carousel\#readme](https://github.com/ssense/vue-carousel#readme) vue-carousel github
+
+[https://getbootstrap.com/docs/4.0/components/carousel/](https://getbootstrap.com/docs/4.0/components/carousel/) boostrap
+

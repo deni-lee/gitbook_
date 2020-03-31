@@ -5,7 +5,8 @@
 ## 安裝
 
 CDN
-```html
+
+```markup
 <link rel="stylesheet" href="path/to/quill.core.css"/>
 <link rel="stylesheet" href="path/to/quill.snow.css"/>
 <link rel="stylesheet" href="path/to/quill.bubble.css"/>
@@ -18,14 +19,16 @@ CDN
 ```
 
 NPM
-```html
+
+```markup
 npm install vue-quill-editor --save
 ```
 
 ### Nuxt
 
 plugin/vue-quill-editor.js
-```js
+
+```javascript
 import Vue from 'vue'
 import VueQuillEditor from 'vue-quill-editor'
 
@@ -36,15 +39,18 @@ import 'quill/dist/quill.bubble.css'
 
 Vue.use(VueQuillEditor, /* { default global options } */)
 ```
+
 config.js中加入
-```js
+
+```javascript
 plugins:[
     { src: '~plugins/vue-quill-editor', ssr: false }
 ]
 ```
+
 使用
 
-```js
+```javascript
 <template>
 
   <quill-editor v-model="content">  </quill-editor>
@@ -64,8 +70,10 @@ plugins:[
 ```
 
 ## 參考文獻
-https://github.com/surmon-china/vue-quill-editor vue-quill-editor 官方github
 
-https://quilljs.com/docs/quickstart/ qulli官方
+[https://github.com/surmon-china/vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) vue-quill-editor 官方github
 
-https://gitpress.io/@rainy/vue-quill-editor
+[https://quilljs.com/docs/quickstart/](https://quilljs.com/docs/quickstart/) qulli官方
+
+[https://gitpress.io/@rainy/vue-quill-editor](https://gitpress.io/@rainy/vue-quill-editor)
+

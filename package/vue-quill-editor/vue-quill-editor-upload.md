@@ -9,11 +9,14 @@
 🌟上傳圖片時，我們可以繼續編輯內容，包括更改圖片的位置，甚至刪除圖片。
 
 ## 安裝
-```
+
+```text
 npm install quill-plugin-image-upload --save
 ```
+
 ## 使用
-```js
+
+```javascript
 import Quill from 'quill';
 import 'quill/dist/quill.snow.css';
 import imageUpload from 'quill-plugin-image-upload';
@@ -40,4 +43,6 @@ new Quill('#editor', {
 ```
 
 ## 參考文獻
-https://github.com/dragonwong/quill-plugin-image-upload
+
+[https://github.com/dragonwong/quill-plugin-image-upload](https://github.com/dragonwong/quill-plugin-image-upload)
+
